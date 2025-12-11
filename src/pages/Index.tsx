@@ -53,6 +53,8 @@ const Index = () => {
         <DashboardHeader 
           onRefresh={handleRefresh} 
           isLoading={isLoading}
+          summaryData={summaryData}
+          reportData={reportData}
           dateRangeLabel={dateRangeLabel}
         />
 
