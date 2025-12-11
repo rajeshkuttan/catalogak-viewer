@@ -1,9 +1,10 @@
-import { Calendar, RefreshCw } from "lucide-react";
+import { RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface DashboardHeaderProps {
   onRefresh: () => void;
   isLoading: boolean;
+  dateRangeLabel?: string;
 }
 
 export function DashboardHeader({ onRefresh, isLoading }: DashboardHeaderProps) {
@@ -13,10 +14,9 @@ export function DashboardHeader({ onRefresh, isLoading }: DashboardHeaderProps) 
         <h1 className="text-3xl font-bold tracking-tight text-foreground">
           Transaction Dashboard
         </h1>
-        <div className="flex items-center gap-2 mt-2 text-muted-foreground">
-          <Calendar className="h-4 w-4" />
-          <span className="text-sm">Dec 1 - Dec 2, 2025</span>
-        </div>
+        <p className="text-sm text-muted-foreground mt-1">
+          View and analyze your transaction data
+        </p>
       </div>
       <Button
         onClick={onRefresh}
