@@ -7,12 +7,22 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: {
+        DEFAULT: "1rem",  // Mobile-first: 16px padding
+        sm: "1.5rem",     // 24px on small tablets
+        lg: "2rem",       // 32px on desktop
+      },
       screens: {
         "2xl": "1400px",
       },
     },
     extend: {
+      spacing: {
+        'safe-top': 'env(safe-area-inset-top)',
+        'safe-bottom': 'env(safe-area-inset-bottom)',
+        'safe-left': 'env(safe-area-inset-left)',
+        'safe-right': 'env(safe-area-inset-right)',
+      },
       fontFamily: {
         sans: ['DM Sans', 'system-ui', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],

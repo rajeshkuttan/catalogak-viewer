@@ -73,17 +73,17 @@ export function exportSummaryToPDF(data: TransactionSummary[], dateRange: string
   doc.setFontSize(10);
   doc.setTextColor(60);
   doc.text(`Total Transactions: ${totals.count}`, 20, 54);
-  doc.text(`Total Amount: $${totals.totalAmount.toFixed(2)}`, 70, 54);
-  doc.text(`Net Sales: $${totals.netSales.toFixed(2)}`, 120, 54);
-  doc.text(`Total Tax: $${totals.totalTax.toFixed(2)}`, 165, 54);
+  doc.text(`Total Amount: AED ${totals.totalAmount.toFixed(2)}`, 70, 54);
+  doc.text(`Net Sales: AED ${totals.netSales.toFixed(2)}`, 120, 54);
+  doc.text(`Total Tax: AED ${totals.totalTax.toFixed(2)}`, 165, 54);
 
   // Table
   const tableData = data.map((item) => [
     format(parseISO(item.date), "MMM d, yyyy"),
     item.count.toString(),
-    `$${item.totalAmount.toFixed(2)}`,
-    `$${item.netSales.toFixed(2)}`,
-    `$${item.totalTax.toFixed(2)}`,
+    `AED ${item.totalAmount.toFixed(2)}`,
+    `AED ${item.netSales.toFixed(2)}`,
+    `AED ${item.totalTax.toFixed(2)}`,
   ]);
 
   autoTable(doc, {
@@ -118,8 +118,8 @@ export function exportReportToPDF(data: TransactionReport[], dateRange: string) 
   const tableData = data.map((item) => [
     item.receiptNumber,
     format(parseISO(item.receiptDateTime), "MMM d, HH:mm"),
-    `$${item.invoiceAmount.toFixed(2)}`,
-    `$${item.taxAmount.toFixed(2)}`,
+    `AED ${item.invoiceAmount.toFixed(2)}`,
+    `AED ${item.taxAmount.toFixed(2)}`,
     item.status,
   ]);
 

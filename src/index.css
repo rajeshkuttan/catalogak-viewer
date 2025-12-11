@@ -103,8 +103,32 @@
     @apply border-border;
   }
 
+  /* Mobile-first: optimized for touch and readability */
+  html {
+    font-size: 16px; /* Base size for accessibility */
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+    -webkit-touch-callout: none; /* Disable callout on long press */
+  }
+
   body {
     @apply bg-background text-foreground font-sans antialiased;
+    font-size: 1rem; /* 16px - optimal for mobile readability */
+    line-height: 1.6; /* Better readability on mobile */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    /* iOS safe area support */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Improve touch target sizes globally */
+  button, a, input, select, textarea {
+    min-height: 44px; /* Apple/Android touch target minimum */
+    min-width: 44px;
+  }
+
+  /* Better focus indicators for keyboard navigation */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
   }
 }
 
@@ -115,5 +139,36 @@
   
   .font-mono-data {
     font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Mobile-first utility classes */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+
+  .mobile-padding {
+    @apply px-4 py-3;
+  }
+
+  .mobile-spacing {
+    @apply space-y-4;
+  }
+
+  /* Active state for touch feedback (better than hover on mobile) */
+  .touch-feedback {
+    @apply active:scale-95 active:bg-opacity-80 transition-transform duration-100;
+  }
+
+  /* Prevent text selection on UI elements (better mobile UX) */
+  .no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  /* Smooth scroll for mobile */
+  .smooth-scroll {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
   }
 }
