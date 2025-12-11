@@ -1,0 +1,23 @@
+{
+  "name": "burcurry-email-service",
+  "version": "1.0.0",
+  "description": "Daily email report service for The Burcurry transaction dashboard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test-email.js"
+  },
+  "keywords": ["email", "cron", "reports", "burcurry"],
+  "author": "The Burcurry by 1765",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "date-fns": "^3.6.0"
+  }
+}
+
