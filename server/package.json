@@ -1,7 +1,7 @@
 {
-  "name": "burcurry-email-service",
+  "name": "burgurry-email-service",
   "version": "1.0.0",
-  "description": "Daily email report service for The Burcurry transaction dashboard",
+  "description": "Daily email report service for The Burgurry transaction dashboard",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
     "dev": "node --watch index.js",
     "test": "node test-email.js"
   },
-  "keywords": ["email", "cron", "reports", "burcurry"],
-  "author": "The Burcurry by 1765",
+  "keywords": ["email", "cron", "reports", "burgurry"],
+  "author": "The Burgurry by 1765",
   "license": "ISC",
   "dependencies": {
     "node-cron": "^3.0.3",

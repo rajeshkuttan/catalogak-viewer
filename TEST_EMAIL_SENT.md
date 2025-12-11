@@ -55,7 +55,7 @@ Four professional cards displaying:
   - Mobile-responsive design
 
 ### Footer
-- The Burcurry branding
+- The Burgurry branding
 - Timestamp
 - Support contact
 
@@ -66,10 +66,10 @@ Four professional cards displaying:
 Please check your email (rajesh.kuttan@absons.ae) and verify:
 
 - [ ] Email received in inbox (check spam/junk if not visible)
-- [ ] Subject line: "The Burcurry Daily Sales Report - December 10, 2025"
+- [ ] Subject line: "The Burgurry Daily Sales Report - December 10, 2025"
 - [ ] From: no-reply@absons.ae
 - [ ] HTML formatting displays correctly
-- [ ] The Burcurry logo and branding visible
+- [ ] The Burgurry logo and branding visible
 - [ ] All 4 summary cards showing correctly
 - [ ] Transaction table displays all 24 transactions
 - [ ] AED currency formatting correct
@@ -169,7 +169,7 @@ Please reply with:
 
 - ✅ 24 transactions from December 10, 2025
 - ✅ Total sales: AED 2,203.75
-- ✅ Professional HTML format with The Burcurry branding
+- ✅ Professional HTML format with The Burgurry branding
 - ✅ Message ID: <41f672ed-6c44-7adb-0d4e-16369874335b@absons.ae>
 
 **Please check your email and confirm the format looks good!** 📧✅

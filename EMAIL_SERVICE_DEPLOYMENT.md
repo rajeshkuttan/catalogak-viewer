@@ -2,7 +2,7 @@
 
 ## Overview
 
-Automated daily email service that sends sales reports from The Burcurry dashboard every morning at 10:00 AM (UAE time).
+Automated daily email service that sends sales reports from The Burgurry dashboard every morning at 10:00 AM (UAE time).
 
 ---
 
@@ -86,7 +86,7 @@ node test-email.js daily
 npm install -g pm2
 
 # Start the service
-pm2 start index.js --name "burcurry-email"
+pm2 start index.js --name "burgurry-email"
 
 # Configure to start on system boot
 pm2 startup
@@ -113,13 +113,13 @@ See `server/README.md` for Docker deployment.
 
 ### Email Subject
 ```
-The Burcurry Daily Sales Report - January 15, 2024
+The Burgurry Daily Sales Report - January 15, 2024
 ```
 
 ### Email Content
 
 1. **Header**
-   - The Burcurry logo and branding
+   - The Burgurry logo and branding
    - Report date
 
 2. **Sales Summary** (4 cards)
@@ -146,7 +146,7 @@ The Burcurry Daily Sales Report - January 15, 2024
 The email is:
 - ✅ **HTML formatted** - Professional design
 - ✅ **Mobile responsive** - Looks great on phones
-- ✅ **Branded** - The Burcurry colors and logo
+- ✅ **Branded** - The Burgurry colors and logo
 - ✅ **AED currency** - Proper formatting
 - ✅ **Complete data** - All transactions included
 
@@ -438,7 +438,7 @@ Your automated email service is **ready for production**!
 cd catalogak-viewer/server
 npm install
 npm run test
-pm2 start index.js --name "burcurry-email"
+pm2 start index.js --name "burgurry-email"
 pm2 save
 ```
 

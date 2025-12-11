@@ -1,4 +1,4 @@
-# 📧 The Burcurry Email Service
+# 📧 The Burgurry Email Service
 
 Automated daily email service that sends sales reports every morning at 10:00 AM (UAE time).
 
@@ -112,7 +112,7 @@ The email includes:
 - Status (SALES/REFUND)
 
 ### 3. Professional Branding
-- The Burcurry logo and colors
+- The Burgurry logo and colors
 - Responsive HTML design
 - Mobile-friendly layout
 
@@ -174,7 +174,7 @@ npm install -g pm2
 
 # Start the service
 cd server
-pm2 start index.js --name "burcurry-email"
+pm2 start index.js --name "burgurry-email"
 
 # Make it run on system startup
 pm2 startup
@@ -193,7 +193,7 @@ Create `/etc/systemd/system/burcurry-email.service`:
 
 ```ini
 [Unit]
-Description=The Burcurry Email Service
+Description=The Burgurry Email Service
 After=network.target
 
 [Service]
@@ -428,7 +428,7 @@ This email service is **ready to deploy** and configured exactly as specified in
 ✅ **Recipients**: 6 email addresses  
 ✅ **Schedule**: 10:00 AM daily (UAE time)  
 ✅ **Data**: Yesterday's sales and transactions  
-✅ **Format**: Professional HTML email with The Burcurry branding  
+✅ **Format**: Professional HTML email with The Burgurry branding  
 
 **Just run `npm install` and `npm start`!** 🚀
 

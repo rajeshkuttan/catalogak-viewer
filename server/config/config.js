@@ -14,7 +14,7 @@ export const config = {
     host: process.env.SMTP_HOST || '172.16.0.2',
     port: parseInt(process.env.SMTP_PORT || '25', 10),
     from: process.env.SMTP_FROM || 'no-reply@absons.ae',
-    fromName: process.env.SMTP_FROM_NAME || 'The Burcurry Dashboard',
+    fromName: process.env.SMTP_FROM_NAME || 'The Burgurry Dashboard',
     recipients: (process.env.EMAIL_RECIPIENTS || '').split(',').filter(Boolean),
     // No authentication required as per requirements
     auth: null,

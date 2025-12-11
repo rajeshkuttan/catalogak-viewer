@@ -3,12 +3,12 @@ import { format, parseISO } from 'date-fns';
 // Generate HTML email template
 export function generateEmailHTML({ date, summary, report, totals }) {
   return `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Burcurry Daily Sales Report</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>The Burgurry Daily Sales Report</title>
   <style>
     body {
       margin: 0;
@@ -162,7 +162,7 @@ export function generateEmailHTML({ date, summary, report, totals }) {
   <div class="container">
     <!-- Header with Logo -->
     <div class="header">
-      <div class="logo">🍔 THE BURCURRY</div>
+      <div class="logo">🍔 THE BURGURRY</div>
       <div class="tagline">BURGERS & BITES • BY 1765</div>
     </div>
 
@@ -237,7 +237,7 @@ export function generateEmailHTML({ date, summary, report, totals }) {
 
     <!-- Footer -->
     <div class="footer">
-      <p><strong>The Burcurry Dashboard</strong></p>
+      <p><strong>The Burgurry Dashboard</strong></p>
       <p>Automated Daily Report • Generated at ${format(new Date(), 'HH:mm')} ${format(new Date(), 'z')}</p>
       <p style="margin-top: 10px; font-size: 11px;">
         This is an automated email. Please do not reply.<br>

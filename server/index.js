@@ -5,7 +5,7 @@ import { logger } from './utils/logger.js';
 
 // Main function to start the cron job
 async function startEmailService() {
-  logger.info('🚀 The Burcurry Email Service Starting...');
+  logger.info('🚀 The Burgurry Email Service Starting...');
   logger.info(`📧 Recipients: ${config.email.recipients.length} email(s)`);
   logger.info(`⏰ Schedule: Daily at 10:00 AM (${config.cron.schedule})`);
   logger.info(`🌍 Timezone: ${config.timezone}`);

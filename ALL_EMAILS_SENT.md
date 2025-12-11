@@ -4,7 +4,7 @@
 
 **Date**: December 11, 2025 at 11:03 AM  
 **From**: no-reply@absons.ae  
-**Subject**: The Burcurry Daily Sales Report - December 10, 2025  
+**Subject**: The Burgurry Daily Sales Report - December 10, 2025  
 **Status**: ✅ **Successfully sent to all 6 recipients**  
 **Message ID**: `<d345f1dd-35f1-ddd1-e524-caf15ae03359@absons.ae>`  
 **Send Time**: 2.37 seconds
@@ -49,7 +49,7 @@
 The professional HTML email includes:
 
 ### ✅ Header Section
-- 🍔 **The Burcurry** logo
+- 🍔 **The Burgurry** logo
 - Gradient teal background (#2D8278)
 - **"BURGERS & BITES • BY 1765"** tagline
 - Report date banner
@@ -70,7 +70,7 @@ The professional HTML email includes:
 - Mobile-responsive design
 
 ### ✅ Footer
-- The Burcurry branding
+- The Burgurry branding
 - Generated timestamp (11:03 AM)
 - Support contact info
 - Auto-reply disclaimer
@@ -95,13 +95,13 @@ The professional HTML email includes:
 
 ### In Their Inbox
 - **From**: no-reply@absons.ae
-- **Subject**: The Burcurry Daily Sales Report - December 10, 2025
+- **Subject**: The Burgurry Daily Sales Report - December 10, 2025
 - **When**: Around 11:03 AM (just now)
 
 ### Email Appearance
 - **Desktop**: Full-width professional layout (max 800px)
 - **Mobile**: Responsive single-column layout
-- **Branding**: The Burcurry colors and logo throughout
+- **Branding**: The Burgurry colors and logo throughout
 - **Data**: All sales metrics clearly displayed
 - **Table**: Complete transaction list
 
@@ -158,9 +158,9 @@ Based on the 24 transactions:
 Please verify in your email:
 
 - [ ] Email received (check inbox/spam)
-- [ ] Subject: "The Burcurry Daily Sales Report - December 10, 2025"
+- [ ] Subject: "The Burgurry Daily Sales Report - December 10, 2025"
 - [ ] From: no-reply@absons.ae
-- [ ] The Burcurry logo displays at top
+- [ ] The Burgurry logo displays at top
 - [ ] 4 summary cards show sales data
 - [ ] Transaction table displays all 24 records
 - [ ] AED currency shows correctly

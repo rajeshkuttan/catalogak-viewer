@@ -13,7 +13,7 @@ const NotFound = () => {
       <div className="text-center px-4">
         <img 
           src="/burgurry.png" 
-          alt="The Burcurry" 
+          alt="The Burgurry" 
           className="h-24 w-24 mx-auto mb-6 object-contain"
         />
         <h1 className="mb-2 text-4xl font-bold">404</h1>

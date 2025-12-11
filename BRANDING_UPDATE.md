@@ -1,7 +1,7 @@
-# 🍔 The Burcurry - Branding Update
+# 🍔 The Burgurry - Branding Update
 
 ## Overview
-The application has been rebranded to match **The Burcurry** burger restaurant brand identity with the logo, typography, and messaging aligned with "Burgers & Bites by 1765".
+The application has been rebranded to match **The Burgurry** burger restaurant brand identity with the logo, typography, and messaging aligned with "Burgers & Bites by 1765".
 
 ---
 
@@ -28,7 +28,7 @@ The application has been rebranded to match **The Burcurry** burger restaurant b
 #### Desktop Navigation
 ```tsx
 <Link to="/" className="flex items-center gap-3">
-  <img src="/burgurry.png" alt="The Burcurry" className="h-12 w-12" />
+  <img src="/burgurry.png" alt="The Burgurry" className="h-12 w-12" />
   <div className="flex flex-col">
     <span className="text-xl font-bold">THE BURCURRY</span>
     <span className="text-xs text-muted-foreground">BY 1765</span>
@@ -39,7 +39,7 @@ The application has been rebranded to match **The Burcurry** burger restaurant b
 #### Mobile Header
 ```tsx
 <Link to="/" className="flex items-center gap-2.5">
-  <img src="/burgurry.png" alt="The Burcurry" className="h-8 w-8" />
+  <img src="/burgurry.png" alt="The Burgurry" className="h-8 w-8" />
   <div className="flex flex-col items-center">
     <span className="text-sm font-bold">THE BURCURRY</span>
     <span className="text-[10px]">BY 1765</span>
@@ -64,15 +64,15 @@ The application has been rebranded to match **The Burcurry** burger restaurant b
 ### 3. **HTML Meta Tags**
 
 ```html
-<title>The Burcurry - Transaction Dashboard</title>
-<meta name="description" content="The Burcurry transaction dashboard - View sales analytics and transaction reports" />
-<meta name="author" content="The Burcurry by 1765" />
+<title>The Burgurry - Transaction Dashboard</title>
+<meta name="description" content="The Burgurry transaction dashboard - View sales analytics and transaction reports" />
+<meta name="author" content="The Burgurry by 1765" />
 <link rel="icon" type="image/png" href="/burgurry.png" />
 ```
 
 #### Open Graph Tags
 ```html
-<meta property="og:title" content="The Burcurry - Transaction Dashboard" />
+<meta property="og:title" content="The Burgurry - Transaction Dashboard" />
 <meta property="og:description" content="Burgers & Bites - View sales analytics and transaction reports" />
 <meta property="og:image" content="/burgurry.png" />
 ```
@@ -80,7 +80,7 @@ The application has been rebranded to match **The Burcurry** burger restaurant b
 #### Twitter Card
 ```html
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="The Burcurry Dashboard" />
+<meta name="twitter:title" content="The Burgurry Dashboard" />
 <meta name="twitter:description" content="Burgers & Bites by 1765" />
 <meta name="twitter:image" content="/burgurry.png" />
 ```
@@ -227,7 +227,7 @@ Descriptions:   14-16px, Normal
 - Generic descriptions
 
 ### After
-- ✅ Professional "The Burcurry" branding
+- ✅ Professional "The Burgurry" branding
 - ✅ Actual burger restaurant logo
 - ✅ Clear brand identity with heritage (BY 1765)
 - ✅ Context-specific descriptions (Burgers & Bites)
@@ -262,7 +262,7 @@ Descriptions:   14-16px, Normal
 ```tsx
 <img 
   src="/burgurry.png" 
-  alt="The Burcurry" 
+  alt="The Burgurry" 
   className="h-10 w-10 object-contain"
 />
 ```
@@ -286,7 +286,7 @@ Always include brand context:
 
 ## 🎉 Conclusion
 
-The application now has a **strong, cohesive brand identity** that clearly represents The Burcurry burger restaurant. The logo is prominently displayed, the typography matches the brand's bold aesthetic, and all messaging reinforces the "Burgers & Bites by 1765" positioning.
+The application now has a **strong, cohesive brand identity** that clearly represents The Burgurry burger restaurant. The logo is prominently displayed, the typography matches the brand's bold aesthetic, and all messaging reinforces the "Burgers & Bites by 1765" positioning.
 
-**The dashboard now looks like it belongs to The Burcurry!** 🍔🎉
+**The dashboard now looks like it belongs to The Burgurry!** 🍔🎉
 

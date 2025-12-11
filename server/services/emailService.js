@@ -68,7 +68,7 @@ export async function sendDailyReport() {
     const mailOptions = {
       from: `"${config.email.fromName}" <${config.email.from}>`,
       to: config.email.recipients.join(', '),
-      subject: `The Burcurry Daily Sales Report - ${displayDate}`,
+      subject: `The Burgurry Daily Sales Report - ${displayDate}`,
       html: emailHTML,
       text: generatePlainTextEmail({ date: displayDate, totals, transactionCount: data.report.length })
     };
@@ -94,7 +94,7 @@ export async function sendDailyReport() {
 // Generate plain text version of email
 function generatePlainTextEmail({ date, totals, transactionCount }) {
   return `
-THE BURCURRY - DAILY SALES REPORT
+THE BURGURRY - DAILY SALES REPORT
 ${date}
 
 SUMMARY
@@ -107,7 +107,7 @@ Transactions:     ${totals.count}
 ${transactionCount} transaction details are included in the HTML version of this email.
 
 ---
-This is an automated report from The Burcurry Dashboard.
+This is an automated report from The Burgurry Dashboard.
 Sent by: ${config.email.from}
 `;
 }
@@ -133,11 +133,11 @@ export async function sendTestEmail() {
   const mailOptions = {
     from: `"${config.email.fromName}" <${config.email.from}>`,
     to: config.email.recipients[0], // Send to first recipient only for testing
-    subject: `TEST: The Burcurry Email Service`,
+    subject: `TEST: The Burgurry Email Service`,
     html: `
       <div style="font-family: Arial, sans-serif; padding: 20px;">
         <h2>✅ Test Email Successful</h2>
-        <p>This is a test email from The Burcurry email service.</p>
+        <p>This is a test email from The Burgurry email service.</p>
         <p><strong>Configuration:</strong></p>
         <ul>
           <li>SMTP Host: ${config.email.host}</li>

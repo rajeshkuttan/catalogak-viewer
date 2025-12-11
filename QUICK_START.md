@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide - The Burcurry Email Service
+# 🚀 Quick Start Guide - The Burgurry Email Service
 
 ## ✅ Both Issues Fixed!
 
@@ -35,13 +35,13 @@ pm2 status
 
 ### View Logs
 ```bash
-pm2 logs burcurry-email
+pm2 logs burgurry-email
 pm2 logs burcurry-email --lines 50
 ```
 
 ### Restart Service
 ```bash
-pm2 restart burcurry-email
+pm2 restart burgurry-email
 ```
 
 ### Stop Service
@@ -102,7 +102,7 @@ TZ=Asia/Dubai
 3. **Generate Email** - Creates HTML email with:
    - Sales summary (Total, Net, Tax, Count)
    - Transaction details table
-   - The Burcurry branding
+   - The Burgurry branding
 4. **Send Email** - Delivers to all 6 recipients
 5. **Log Result** - Records success/failure
 

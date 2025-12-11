@@ -25,16 +25,16 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-4 lg:px-6">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-6 lg:gap-8">
-              {/* Burcurry Logo and Brand */}
+              {/* Burgurry Logo and Brand */}
               <Link to="/" className="flex items-center gap-3 touch-feedback">
                 <img 
                   src="/burgurry.png" 
-                  alt="The Burcurry" 
+                  alt="The Burgurry" 
                   className="h-10 w-10 lg:h-12 lg:w-12 object-contain"
                 />
                 <div className="flex flex-col">
                   <span className="text-lg lg:text-xl font-bold text-foreground tracking-tight leading-none">
-                    THE BURCURRY
+                    THE BURGURRY
                   </span>
                   <span className="text-xs text-muted-foreground font-medium tracking-wider">
                     BY 1765
@@ -75,12 +75,12 @@ export function Navigation() {
           <Link to="/" className="flex items-center justify-center gap-2.5 touch-feedback">
             <img 
               src="/burgurry.png" 
-              alt="The Burcurry" 
+              alt="The Burgurry" 
               className="h-8 w-8 object-contain"
             />
             <div className="flex flex-col items-center leading-none">
               <span className="text-sm font-bold text-foreground tracking-tight">
-                THE BURCURRY
+                THE BURGURRY
               </span>
               <span className="text-[10px] text-muted-foreground font-medium tracking-wider">
                 BY 1765
