@@ -2,7 +2,9 @@
 node_modules/
 package-lock.json
 
-# Environment variables (keep .env for reference, but don't commit sensitive data)
+# Environment variables
+# Note: .env is committed for easy deployment (internal server only)
+# If deploying to public servers, uncomment the line below
 # .env
 
 # Logs
