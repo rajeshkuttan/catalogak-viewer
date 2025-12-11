@@ -1,13 +1,23 @@
 import { RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ExportButton } from "@/components/dashboard/ExportButton";
+import type { TransactionSummary, TransactionReport } from "@/types/transaction";
 
 interface DashboardHeaderProps {
   onRefresh: () => void;
   isLoading: boolean;
-  dateRangeLabel?: string;
+  summaryData?: TransactionSummary[];
+  reportData?: TransactionReport[];
+  dateRangeLabel: string;
 }
 
-export function DashboardHeader({ onRefresh, isLoading }: DashboardHeaderProps) {
+export function DashboardHeader({ 
+  onRefresh, 
+  isLoading, 
+  summaryData, 
+  reportData, 
+  dateRangeLabel 
+}: DashboardHeaderProps) {
   return (
     <header className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
       <div>
@@ -18,16 +28,22 @@ export function DashboardHeader({ onRefresh, isLoading }: DashboardHeaderProps) 
           View and analyze your transaction data
         </p>
       </div>
-      <Button
-        onClick={onRefresh}
-        disabled={isLoading}
-        variant="outline"
-        size="sm"
-        className="w-fit"
-      >
-        <RefreshCw className={`h-4 w-4 mr-2 ${isLoading ? "animate-spin" : ""}`} />
-        Refresh Data
-      </Button>
+      <div className="flex items-center gap-2">
+        <ExportButton 
+          summaryData={summaryData} 
+          reportData={reportData} 
+          dateRangeLabel={dateRangeLabel}
+        />
+        <Button
+          onClick={onRefresh}
+          disabled={isLoading}
+          variant="outline"
+          size="sm"
+        >
+          <RefreshCw className={`h-4 w-4 mr-2 ${isLoading ? "animate-spin" : ""}`} />
+          Refresh
+        </Button>
+      </div>
     </header>
   );
 }
