@@ -19,3 +19,5 @@ TLS/SSL                               :      none
 
 cd D:\Projects\1765\catalogak-viewer\server; pm2 start index.js --name "burcurry-email"
 
+D:\Projects\1765\catalogak-viewer\server
+node test-email.js daily
